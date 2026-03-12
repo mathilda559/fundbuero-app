@@ -40,7 +40,7 @@ if uploaded_file and title:
 
 st.header("Gefundene Gegenstände")
 
-entries = load_entries()
+entries = load_items()
 
 cols = st.columns(3)
 
