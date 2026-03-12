@@ -4,6 +4,7 @@ import os
 from model_utils import classify_image
 from database import save_entry, load_entries
 import uuid
+from supabase_db import save_item, load_items
 
 st.set_page_config(page_title="Schul Fundbüro", layout="wide")
 
