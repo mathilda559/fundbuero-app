@@ -33,7 +33,7 @@ if uploaded_file and title:
 
     img.save(image_path)
 
-    save_entry(title, category, image_path)
+    save_item(title, category, image_path)
 
     st.success(f"Gespeichert als {category}")
 
